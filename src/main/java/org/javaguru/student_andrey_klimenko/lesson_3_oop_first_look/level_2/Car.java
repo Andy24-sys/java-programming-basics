@@ -8,7 +8,7 @@ package org.javaguru.student_andrey_klimenko.lesson_3_oop_first_look.level_2;
 У класса должен быть конструктор,
 для задания начального значения всем свойствам класса.
  */
-public class Car {
+class Car {
     private String model;
     private String color;
     private int price;

@@ -1,6 +1,6 @@
 package org.javaguru.student_andrey_klimenko.lesson_3_oop_first_look.level_4;
 
-public class DoctorAppoint {
+class DoctorAppoint {
     private String nameFirst;
     private String nameLast;
     private String diagnosis;

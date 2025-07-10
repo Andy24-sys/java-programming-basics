@@ -2,7 +2,7 @@ package org.javaguru.student_andrey_klimenko.lesson_2_variables_and_data_types.l
 
 import java.util.Scanner;
 
-public class MultyplayNum {
+class MultyplayNum {
     public static void main(String[] args) {
         int num;
         Scanner sc = new Scanner(System.in);

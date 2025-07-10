@@ -24,7 +24,7 @@ import java.util.Date;
 У каждого класса должен быть конструктор,
 для задания начального значения всем свойствам класса.
  */
-public class Doctor {
+class Doctor {
 
     private String nameFirst;
     private String nameLast;

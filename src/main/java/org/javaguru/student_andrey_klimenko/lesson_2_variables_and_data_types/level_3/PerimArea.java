@@ -13,7 +13,7 @@ Area is = 176.71458676442586
 
 import java.util.Scanner;
 
-public class PerimArea {
+class PerimArea {
 
     public static void main(String[] args) {
 

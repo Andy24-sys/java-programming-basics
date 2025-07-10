@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 Примечание: обратите внимание, что результат может быть дробным числом.
  */
-public class Arifmetic {
+class Arifmetic {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

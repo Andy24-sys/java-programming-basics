@@ -16,7 +16,7 @@ package org.javaguru.student_andrey_klimenko.lesson_3_oop_first_look.level_3;
 для задания начального значения всем свойствам класса.
  */
 
-public class Book {
+class Book {
     private String title;
     private String author;
     private int year;

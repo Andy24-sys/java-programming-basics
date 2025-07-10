@@ -12,7 +12,7 @@ system написан с маленькой буквы
 в последней строке нет ;
  */
 
-public class SizeMatters {
+class SizeMatters {
     public static void main(String[] args) {
         System.out.println("Sorry, I have an errors.");
         System.out.println("Please fix me!");

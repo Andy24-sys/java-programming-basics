@@ -1,6 +1,6 @@
 package org.javaguru.student_andrey_klimenko.lesson_3_oop_first_look.level_3;
 
-public class Chapter {
+class Chapter {
     private String name;
     private String text;
 
