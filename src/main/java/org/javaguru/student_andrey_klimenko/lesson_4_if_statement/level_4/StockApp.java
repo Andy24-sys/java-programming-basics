@@ -1,0 +1,89 @@
+package org.javaguru.student_andrey_klimenko.lesson_4_if_statement.level_4;
+/*
+Необходимо реализовать класс Stock ("акция") таким образом,
+чтобы была возможность узнать текущую цену акции,
+а также ее максимальную и минимальную стоимость
+за период существования.
+
+Класс Stock должен обладать следующими характеристиками:
+
+Свойства:
+- Имя компании
+- Текущая стоимость
+- Минимальная стоимость
+- Максимальная стоимость
+
+Методы:
+- Обновить текущую стоимость акции updatePrice(int newPrice).
+- Получить информацию о ценах акции можно через get() методы.
+
+Имя компании и начальную стоимость необходимо
+задавать в момент создания акции.
+Текущая, минимальная и максимальная стоимость
+должны меняться только через метод updatePrice(int newPrice).
+
+10 -> 12 -> 5 -> 7 -> 99 -> 77
+
+Пример работы с классом Stock:
+
+Stock google = new Stock("GOOG", 10);
+
+System.out.println("Company = " + google.getCompany());
+System.out.println("Current Price = " + google.getCurrentPrice());
+System.out.println("Min Price = " + google.getMinPrice());
+System.out.println("Max Price = " + google.getMaxPrice());
+
+google.updatePrice(15);
+google.updatePrice(7);
+google.updatePrice(14);
+
+System.out.println("Company = " + google.getCompany());
+System.out.println("Current Price = " + google.getCurrentPrice());
+System.out.println("Min Price = " + google.getMinPrice());
+System.out.println("Max Price = " + google.getMaxPrice());
+
+После выполнения кода вывод в консоли должен быть следующим:
+
+Company = GOOG
+Current Price = 10
+Min Price = 10
+Max Price = 10
+
+Company = GOOG
+Current Price = 14
+Min Price = 7
+Max Price = 15
+
+
+PS: Попробуйте подумать как можно протестировать правильность
+работы созданного вами класса Stock.
+
+ */
+public class StockApp {
+    public static void main(String[] args) {
+        Stock stock1=new Stock("Bakl",100);
+
+        System.out.println("Наименование компании: "+ stock1.getNameCompany()
+                +", текущая стоимость -"+stock1.getCurrentPrice());
+        System.out.println("Мин стоимость: "+stock1.getMinPrice());
+        System.out.println("Мax стоимость: "+stock1.getMaxPrice());
+
+        stock1.updatePrice(200);
+        System.out.println("Наименование компании: "+ stock1.getNameCompany()
+                +", текущая стоимость -"+stock1.getCurrentPrice());
+        System.out.println("Мин стоимость: "+stock1.getMinPrice());
+        System.out.println("Мax стоимость: "+stock1.getMaxPrice());
+
+        stock1.updatePrice(50);
+        System.out.println("Наименование компании: "+ stock1.getNameCompany()
+                +", текущая стоимость -"+stock1.getCurrentPrice());
+        System.out.println("Мин стоимость: "+stock1.getMinPrice());
+        System.out.println("Мax стоимость: "+stock1.getMaxPrice());
+
+        stock1.updatePrice(65);
+        System.out.println("Наименование компании: "+ stock1.getNameCompany()
+                +", текущая стоимость -"+stock1.getCurrentPrice());
+        System.out.println("Мин стоимость: "+stock1.getMinPrice());
+        System.out.println("Мax стоимость: "+stock1.getMaxPrice());
+    }
+}
