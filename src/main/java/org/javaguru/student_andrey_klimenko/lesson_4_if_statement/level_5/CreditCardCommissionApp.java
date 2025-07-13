@@ -7,7 +7,7 @@ public class CreditCardCommissionApp {
         Scanner sc=new Scanner(System.in);
         int numCash=sc.nextInt();
 
-        CreditCardCommission creditCardCommission=new CreditCardCommission(2000);
-        System.out.println("Ваша комиссия -"+creditCardCommission.Commission());
+        CreditCardCommission creditCardCommission=new CreditCardCommission(numCash);
+        System.out.println("Ваша комиссия: "+creditCardCommission.Commission());
     }
 }
