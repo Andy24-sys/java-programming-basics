@@ -1,6 +1,6 @@
 package org.javaguru.student_andrey_klimenko.lesson_4_if_statement.level_6;
 
-public class ConvertNumbersToRomanApp {
+class ConvertNumbersToRomanApp {
     public static void main(String[] args) {
         ConvertNumbersToRoman convertNumbersToRoman1=new ConvertNumbersToRoman(2);
         ConvertNumbersToRoman convertNumbersToRoman2=new ConvertNumbersToRoman(5);

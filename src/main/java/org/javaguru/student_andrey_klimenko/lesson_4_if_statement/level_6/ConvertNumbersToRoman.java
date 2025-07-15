@@ -1,4 +1,5 @@
 package org.javaguru.student_andrey_klimenko.lesson_4_if_statement.level_6;
+
 /*
 Напишите программу, которая принимает на вход число от 1 до 10
 и выводит его эквивалент в виде римской цифры.
@@ -6,12 +7,13 @@ package org.javaguru.student_andrey_klimenko.lesson_4_if_statement.level_6;
 Используйте switch для определения соответствующей римской цифры.
  */
 class ConvertNumbersToRoman {
+    private int number;
 
     public ConvertNumbersToRoman(int number) {
         this.number = number;
     }
 
-    String convertNumbers (int number){
+    String convertNumbers(int number) {
         return switch (number) {
             case 1 -> "I";
             case 2 -> "II";

@@ -1,6 +1,6 @@
 package org.javaguru.student_andrey_klimenko.lesson_4_if_statement.level_6;
 
-public class SeosonYearApp {
+class SeosonYearApp {
     public static void main(String[] args) {
         SeasonYear seasonYear=new SeasonYear(22);
         SeasonYear seasonYear1=new SeasonYear(1);
