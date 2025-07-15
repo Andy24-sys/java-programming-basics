@@ -9,7 +9,7 @@ import java.util.Scanner;
 Нельзя пользоваться классом Math, мож
 но использовать только if else.
  */
-public class NumEqually {
+class NumEqually {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -19,11 +19,10 @@ public class NumEqually {
             num1 = sc.nextInt();
             num2 = sc.nextInt();
 
-
-        if (num1 > num2) System.out.println("Первое число больше второго");
-        else System.out.println("Второе число больше первого");
-    } catch (InputMismatchException e) {
-        System.out.println("Это не число");
-    }
+            if (num1 > num2) System.out.println("Первое число больше второго");
+            else System.out.println("Второе число больше первого");
+        } catch (InputMismatchException e) {
+            System.out.println("Это не число");
+        }
     }
 }

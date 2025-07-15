@@ -11,22 +11,21 @@ import java.util.Scanner;
 
 В решении воспользоваться оператором не равно (!=).
  */
-public class NumbersNoEquals {
+class NumbersNoEquals {
     public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-    int num1 = 0;
-    int num2 = 0;
+        int num1 = 0;
+        int num2 = 0;
         try {
-        num1 = sc.nextInt();
-        num2 = sc.nextInt();
+            num1 = sc.nextInt();
+            num2 = sc.nextInt();
 
-
-        if (num1 != num2) System.out.println("Числа не равны");
-        else System.out.println("Числа равны");
-    } catch (
-    InputMismatchException e) {
-        System.out.println("Это не число");
+            if (num1 != num2) System.out.println("Числа не равны");
+            else System.out.println("Числа равны");
+        } catch (
+                InputMismatchException e) {
+            System.out.println("Это не число");
+        }
     }
-}
 }
