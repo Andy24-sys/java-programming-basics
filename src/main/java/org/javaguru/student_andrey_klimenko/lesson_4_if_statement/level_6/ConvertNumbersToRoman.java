@@ -7,7 +7,7 @@ package org.javaguru.student_andrey_klimenko.lesson_4_if_statement.level_6;
 Используйте switch для определения соответствующей римской цифры.
  */
 class ConvertNumbersToRoman {
-    private int number;
+    private final int number;
 
     public ConvertNumbersToRoman(int number) {
         this.number = number;
