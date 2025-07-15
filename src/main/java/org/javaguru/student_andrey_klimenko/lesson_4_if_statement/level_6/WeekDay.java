@@ -1,15 +1,15 @@
 package org.javaguru.student_andrey_klimenko.lesson_4_if_statement.level_6;
 
-public class WeekDay {
+class WeekDay {
     private int num;
 
     public WeekDay(int num) {
         this.num = num;
     }
 
-    String numWeekDay(int num){
+    String numWeekDay(int num) {
 
-        return switch (num){
+        return switch (num) {
             case 1 -> "Понедельник";
             case 2 -> "Вторник";
             case 3 -> "Среда";
