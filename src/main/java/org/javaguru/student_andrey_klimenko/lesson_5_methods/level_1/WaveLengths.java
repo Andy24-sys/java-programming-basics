@@ -1,6 +1,6 @@
 package org.javaguru.student_andrey_klimenko.lesson_5_methods.level_1;
 
-public class WaveLengths {
+class WaveLengths {
    private final int numWave;
 
     public WaveLengths(int numWave) {
